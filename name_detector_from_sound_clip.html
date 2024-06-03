@@ -1,76 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>AI World Lab</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<link rel="icon" type="image/x-icon" href="icon.jpeg">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<!-- For LinkedIn -->
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <title>AI World Lab</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="icon.jpeg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- For LinkedIn -->
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </head>
 
 <body>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-3" style="background-color:rgb(240, 240, 240);">
-      <div style="text-align: center;">
-          <a href="landing_page.html"><img src="logo.jpeg" style="height: 200px; width: 200px; padding: 20px 20px 20px 20px;"></a>
-          <p>by <span style="font-weight: bold; font-size: 15px;"> Sai Sahu </span> </p>
-          <p>Last Updated: 29 May, 2024</p>
-          <br><br>
-          <h3>PROJECTS</h3>
-          <a href="line_equation_estimator.html">LINE EQUATION ESTIMATOR</a>
-          <p style="font-size: 12px;">COMPUTER VISION</p>
-          <a href="end_to_end_dashboard.html">AI POWERED DASHBOARD</a>
-          <p style="font-size: 12px;">STRUCTURED DATA</p>
-          <a href="name_detector_from_sound_clip.html">NAME DETECTOR FROM SOUND CLIP</a>
-          <p style="font-size: 12px;">AUDIO SIGNAL DATA</p>
-          <br>
-          <h3>BLOGS</h3>
-          <a href="object_generation_explanation.html">Object Generation Explanation</a>
-          <br><br><br><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3" style="background-color:rgb(240, 240, 240);">
+                <div style="text-align: center;">
+                    <a href="landing_page.html"><img src="logo.jpeg" style="height: 200px; width: 200px; padding: 20px 20px 20px 20px;"></a>
+                    <p>by <span style="font-weight: bold; font-size: 15px;"> Sai Sahu </span> </p>
+                    <p>Last Updated: 29 May, 2024</p>
+                    <br><br>
+                    <h3>PROJECTS</h3>
+                    <a href="line_equation_estimator.html">LINE EQUATION ESTIMATOR</a>
+                    <p style="font-size: 12px;">COMPUTER VISION</p>
+                    <a href="end_to_end_dashboard.html">AI POWERED DASHBOARD</a>
+                    <p style="font-size: 12px;">STRUCTURED DATA</p>
+                    <a href="name_detector_from_sound_clip.html">NAME DETECTOR FROM SOUND CLIP</a>
+                    <p style="font-size: 12px;">AUDIO SIGNAL DATA</p>
+                    <br>
+                    <h3>BLOGS</h3>
+                    <a href="object_generation_explanation.html">Object Generation Explanation</a>
+                    <br><br><br><br>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h2>NAME DETECTOR FROM AUDIO CLIP</h2>
+                <a href="https://github.com/saisahu64/audio_clip_name_detector">https://github.com/saisahu64/audio_clip_name_detector</a>
+                <br><br>
+                <form>
+                    <p>Upload an audio wav file within 7-9 seconds with the name "Sai" spoken somewhere a couple of times</p>
+                    <input type="file" name="">
+                    <br><br>
+                    <p>Enter the probability threshold</p>
+                    <input type="text" name="" placeholder="" value="6.1">
+                    <br><br>
+                    <input type="submit" name="" value="PROCESS">
+                    <br><br>
+                    <p>The TIME STAMPS within this audio clip where the name "Sai" is pronounced are - </p>
+                    <textarea placeholder="3.56 Second-Probability 0.6, 5.5 Second-Probability 9.4, 6.2 Second-Probability 8.2" style="height: 100px; width: 100%;"></textarea>
+                    <br><br>
+                    <p>TIME STAMP - PROBABILITY VIZUALIZATION</p>
+                    <img src="detection_graph.png" style="height: _; width: 100%;">
+                    <br>
+                    <p>By uploading an audio clip, the system scans through it chunk by chunk and estimates the probablity of whether the chunk contains the pronunciation of "Sai" or not and returns the chunk numbers (TIME STAMPS) where the Name has a high probablity of being get pronounced. Also it returns a visual representation of as an image.
+                    </p>
+                </form>
+                <br><br>
+            </div>
+            <div class="col-sm-3">
+                <h4>Project Explanation Video -</h4>
+                <iframe width="100%" height="_" src="https://www.youtube.com/embed/16QlwqB7crc?si=t4DX1HQ7rJMUK03_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
-
-
-    <div class="col-sm-6">
-      <h2>NAME DETECTOR FROM AUDIO CLIP</h2>
-      <a href="https://github.com/saisahu64/audio_clip_name_detector">https://github.com/saisahu64/audio_clip_name_detector</a>
-      <br><br>
-      <form>
-        <p>Upload an audio wav file within 7-9 seconds with the name "Sai" spoken somewhere a couple of times</p>
-        <input type="file" name="">
-        <br><br>
-        <p>Enter the probability threshold</p>
-        <input type="text" name="" placeholder="" value="6.1">
-        <br><br>
-        <input type="submit" name="" value="PROCESS">
-        <br><br>
-        <p>The TIME STAMPS within this audio clip where the name "Sai" is pronounced are - </p>
-        <textarea placeholder="3.56 Second-Probability 0.6, 5.5 Second-Probability 9.4, 6.2 Second-Probability 8.2" style="height: 100px; width: 100%;"></textarea>
-        <br><br>
-        <p>TIME STAMP - PROBABILITY VIZUALIZATION</p>
-        <img src="detection_graph.png" style="height: _; width: 100%;">
-        <br>
-        <p>By uploading an audio clip, the system scans through it chunk by chunk and estimates the probablity of whether the chunk contains the pronunciation of "Sai" or not and returns the chunk numbers (TIME STAMPS) where the Name has a high probablity of being get pronounced. Also it returns a visual representation of as an image.
-        </p>
-      </form>
-      <br><br>
-    </div>
-
-
-    <div class="col-sm-3">
-      <h4>Project Explanation Video -</h4>
-      <iframe width="100%" height="_" src="https://www.youtube.com/embed/16QlwqB7crc?si=t4DX1HQ7rJMUK03_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
-
 </body>
 
 </html>
-
