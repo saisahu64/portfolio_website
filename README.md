@@ -1,3 +1,4 @@
+
 # What this project is
 This is the portfolio website for Sai Sahu. The website serves the following purpose -
 
@@ -8,7 +9,7 @@ This is the portfolio website for Sai Sahu. The website serves the following pur
  5. Updating my personal researches and findings 
 
 # Why this project
-**As I have been working for most of my works in self employed manner by taking contractual projects those are not disclosable, I can't show my years of experience officially by some experience letter from any reputed organization. This website, by showcasing the a few working projects, made by me, in real time gives anyone (a potential client, an assistance seeking student or a recruiter) an insight of my knowledge, experience, skills and expertise in Data Science field and create a proper impression of where I stand from current AI industry view point.**
+As I have been working for most of my works in self employed manner by taking contractual projects those are not disclosable, I can't show my years of experience officially by some experience letter from any reputed organization. This website, by showcasing the a few working projects, made by me, in real time gives anyone (a potential client, an assistance seeking student or a recruiter) an insight of my knowledge, experience, skills and expertise in Data Science field and create a proper impression of where I stand from current AI industry view point.
 
 ## Website details
 The website could be accessed directly by entering the IP address in the following way
